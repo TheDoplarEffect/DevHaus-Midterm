@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .text-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    @apply text-white;
+  }
+  .text-body {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    @apply text-white-dimmed;
+  }
+  .text-primary {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    @apply text-white-dimmed;
+  }
+  .text-secondary {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    @apply text-white-dimmed;
+  }
+  .text-description {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    @apply text-white-dimmed;
+  }
+  .text-titleticket {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  .text-supertitle {      
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  .image-center {
+    object-fit: cover;
+    object-position: 25% 25%;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
