@@ -39,13 +39,6 @@ export function Button({
         )}
         {...props}
       >
-        <div className="flex">
-          <div>
-            <p>Hey! World</p>
-          </div>
-        </div>
-
-        <p>Hey! World</p>
         {label}
       </button>
     </div>
